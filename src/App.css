@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  background-color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +29,70 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* from here */
+
+.container{
+  margin: 10% 40% ;
+  width: 300px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  padding: 20px;
+  border-radius: 12px;
+  border: 4px solid rgb(219, 210, 210);
+}
+
+.output{
+  background-color: rgb(247, 244, 240);
+  width: 200px;
+  border-radius: 10%;
+  margin: 3%;
+  padding: 10px;
+}
+
+.btn{
+  color: blanchedalmond;
+  /* display: flex; */
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 2px solid rgba(255,255,255,0.125);
+  background: linear-gradient(90deg, rgb(138, 121, 121),#494949 );
+  width: 50px;
+  margin: 1%;
+}
+
+.equal{
+  border-radius: 45%;
+  width: 100px;
+}
+
+.screen{
+  font-size: 45px;
+  color: white;
+  border-radius: 20px;
+  text-align: end;
+  width: 100%;
+  padding: 0px 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(45deg, rgb(114,114,114),#494949 );
+}
+
+.yellow{
+  color: rgb(233, 233, 15);
+}
+
+.red{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: rgb(247, 87, 87);
 }
 
 @keyframes App-logo-spin {
